@@ -5,6 +5,15 @@
       "2" : "Fire",
       "3" : "Sparse_Traffic"
       
+## Dockerfile
+      created a dockerfile to run this project
+      1. docker build --tag traffic .
+      2. docker run -it --rm  traffic 
+      
+      Run these two cmds to create a docker container
+      Then,
+      python3 *.py
+      
       
 ## Model Architecture Resnet50 
       Layer (type)                    Output Shape         Param #     Connected to                     
@@ -381,5 +390,4 @@
       Trainable params: 23,542,788
       Non-trainable params: 53,120
 ## Output
-
-
+<img src="images/out_fire.png" />
