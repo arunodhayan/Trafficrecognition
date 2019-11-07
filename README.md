@@ -390,4 +390,5 @@
       Trainable params: 23,542,788
       Non-trainable params: 53,120
 ## Output
-<img src="images/out_fire.png" />
+<img src="out_fire.png" />
+<img src="out_dense.png" />
