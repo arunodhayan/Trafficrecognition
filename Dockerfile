@@ -52,7 +52,7 @@ RUN echo "nameserver 134.109.133.1" > /etc/resolv.conf && apt-get update && apt-
   python-dev \
   python-tk 
 
-RUN echo "nameserver 134.109.133.1" > /etc/resolv.conf && git clone https://github.com/OlafenwaMoses/Traffic-Net.git
+
 
 
 
